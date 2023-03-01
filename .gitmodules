@@ -12,7 +12,7 @@
 	branch = master
 [submodule "external/ImFileDialog/ImFileDialog"]
 	path = external/ImFileDialog/ImFileDialog
-	url = https://github.com/pthom/ImFileDialog.git
+	url = https://github.com/quantmage/ImFileDialog.git
 	branch = imgui_bundle
 [submodule "external/imgui-knobs/imgui-knobs"]
 	path = external/imgui-knobs/imgui-knobs
