@@ -301,7 +301,7 @@ ibd_clean_bindings_imgui_bundle_before_pip_build()
 # Main
 # ----------------------------------------------------------------------
 include(imgui_bundle_cmake/internal/litgen_setup_module.cmake)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 # if build python binding, add preprocessor definitions
 if (IMGUI_BUNDLE_BUILD_PYTHON)
