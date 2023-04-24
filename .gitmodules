@@ -1,6 +1,6 @@
 [submodule "external/imgui/imgui"]
 	path = external/imgui/imgui
-	url = https://github.com/pthom/imgui.git
+	url = https://github.com/quantmage/imgui.git
 	branch = imgui_bundle
 [submodule "external/glfw/glfw"]
 	path = external/glfw/glfw
