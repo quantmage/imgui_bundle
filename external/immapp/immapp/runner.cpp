@@ -16,6 +16,7 @@
 #endif
 #include "hello_imgui/hello_imgui.h"
 #include "hello_imgui/internal/functional_utils.h"
+#undef IMGUI_BUNDLE_WITH_IMMVISION
 #ifdef IMGUI_BUNDLE_WITH_IMMVISION
 #include "immvision/immvision.h"
 #endif
