@@ -125,7 +125,7 @@ option(IMGUI_BUNDLE_DISABLE_IMGUIZMO "Disable ImGuizmo" OFF)
 option(IMGUI_BUNDLE_DISABLE_IMFILEDIALOG "Disable ImFileDialog" OFF)
 option(IMGUI_BUNDLE_DISABLE_IMGUI_NODE_EDITOR "Disable imgui-node-editor" OFF)
 option(IMGUI_BUNDLE_DISABLE_IMPLOT "Disable implot" OFF)
-option(IMGUI_BUNDLE_DISABLE_IMMVISION "Disable immvision" OFF)
+option(IMGUI_BUNDLE_DISABLE_IMMVISION "Disable immvision" ON)
 
 
 
@@ -163,7 +163,7 @@ endif()
 #------------------------------------------------------------------------------
 # Options / Freetype (this is an option for hello_imgui, reproduced here for convenience)
 #------------------------------------------------------------------------------
-set(freetype_default ON)
+set(freetype_default OFF)
 if(ANDROID OR MINGW)
     # Freetype is not available on Android. The mix SDL + Freetype cause issues (cannot find SDL.h)
     # Freetype currently fails to build on MinGW
