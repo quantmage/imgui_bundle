@@ -175,7 +175,7 @@ option(IMGUI_BUNDLE_WITH_IMPLOT3D "Build with implot3d" ON)
 option(IMGUI_BUNDLE_WITH_IMANIM "Build with ImAnim" ON)
 option(IMGUI_BUNDLE_WITH_IMANIM_FULL_DEMOS "Include all ImAnim author demos (Demo/Doc/Usecases) in manual" ON)
 option(IMGUI_BUNDLE_WITH_IMGUI_EXPLORER_LIB "Build with imgui_explorer as an included library" ON)
-option(IMGUI_BUNDLE_WITH_IMMVISION "Build with immvision" ON)
+option(IMGUI_BUNDLE_WITH_IMMVISION "Build with immvision" OFF)
 #
 # Note about Hello ImGui (Application Framework & Window Management)
 # -----------------------------------------------------------------------------
