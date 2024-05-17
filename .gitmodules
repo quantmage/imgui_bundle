@@ -57,7 +57,7 @@
 [submodule "external/implot/implot"]
 	path = external/implot/implot
 	url = https://github.com/quantmage/implot.git
-	branch = master
+	branch = imgui_bundle
 [submodule "external/imgui-command-palette/imgui-command-palette"]
 	path = external/imgui-command-palette/imgui-command-palette
 	url = https://github.com/pthom/imgui-command-palette.git
