@@ -233,11 +233,11 @@ namespace ImmApp
             runnerParams.callbacks.PostInit,
             JsClipboard_Install
         );
-        // Process paste events each frame (handles Cmd+V on Mac)
+        /*// Process paste events each frame (handles Cmd+V on Mac)
         runnerParams.callbacks.PostNewFrame = HelloImGui::SequenceFunctions(
             runnerParams.callbacks.PostNewFrame,
             JsClipboard_ProcessPasteRequest
-        );
+        );*/
 #endif
     }
 
